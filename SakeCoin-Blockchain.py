@@ -4,7 +4,8 @@ previous_block = blockchain[0]
 
 # How many blocks should we add to the chain
 # after the genesis block
-num_of_blocks_to_add = 20
+# here we can define variable and change it based on a condition
+num_of_blocks_to_add = 44
 
 # Add blocks to the chain
 for i in range(0, num_of_blocks_to_add):
